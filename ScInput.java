@@ -4,15 +4,15 @@ public class ScInput {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner a = new Scanner(System.in);
         System.out.println("What is your name?");
-        String name = sc.nextLine();
+        String name = a.nextLine();
         System.out.printf("How are you %s?\n", name);
-        String status = sc.nextLine();
+        String status = a.nextLine();
         System.out.println("What is your age?");
-        int age = sc.nextInt ();
+        int age = a.nextInt();
         System.out.println("Thanks for the information !");
-        sc.close();    
+        a.close();    
     }
     
 }
