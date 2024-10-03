@@ -39,7 +39,7 @@ public class ForLoop2 {
   
   
   
-  /*/  {
+  /* {
         int n = 10;
     for(int i =1; i <= n; i++)
     {
@@ -54,7 +54,7 @@ public class ForLoop2 {
 
   //Write a Java program to print Floyd's Triangle.
 
-  /*{
+  {
     Scanner a = new Scanner(System.in);
     System.out.println("Enter the values for n and k:");
     int n = a.nextInt();
@@ -69,7 +69,7 @@ public class ForLoop2 {
         }
         System.out.println(" ");
     }      
-  }*/
+  }
 
 
  
