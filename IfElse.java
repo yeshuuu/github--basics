@@ -34,5 +34,6 @@ public class IfElse {
         else{
             System.out.println("Neither is in Increasing or Decreasing order");
         }
+        sc.close();
     }   
 }

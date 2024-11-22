@@ -68,7 +68,8 @@ public class ForLoop2 {
             k++;
         }
         System.out.println(" ");
-    }      
+            }
+            a.close();      
   }
 
 

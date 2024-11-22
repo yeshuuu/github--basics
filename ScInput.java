@@ -6,7 +6,8 @@ public class ScInput {
 
         Scanner a = new Scanner(System.in);
         System.out.println("What is your name?");
-        String name = a.nextLine();
+        String name = a.next();
+        a.nextLine();
         System.out.printf("How are you %s?\n", name);
         String status = a.nextLine();
         System.out.println("What is your age?");
